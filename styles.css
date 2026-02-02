@@ -515,4 +515,63 @@ footer {
     margin-top: 45px; /* ⬅ baja el nombre */
   }
 }
+/* =====================================
+   🌙 MEJORA MODO OSCURO (tarjetas y texto)
+===================================== */
+@media (prefers-color-scheme: dark) {
+
+  body {
+    background: linear-gradient(180deg, #0f172a, #020617);
+    color: #e5e7eb;
+  }
+
+  /* Tarjetas de contacto / cargos */
+  .cargo,
+  .documento-item,
+  .torneo,
+  .preparacion-bloque,
+  .historia-contenedor {
+    background-color: #111827; /* gris oscuro */
+    color: #e5e7eb;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+    border: 1px solid rgba(255,255,255,0.05);
+  }
+
+  /* Títulos dentro de tarjetas */
+  .cargo h3,
+  .documento-item h3,
+  .torneo h3,
+  .seccion h2,
+  .seccion h3 {
+    color: #60a5fa; /* azul claro */
+  }
+
+  /* Teléfonos y links */
+  a {
+    color: #93c5fd;
+  }
+
+  a:hover {
+    color: #bfdbfe;
+  }
+
+  /* Secciones principales */
+  .seccion {
+    background: rgba(17, 24, 39, 0.9);
+  }
+
+  /* Menú lateral en oscuro */
+  .menu {
+    background-color: #020617;
+  }
+
+  .menu-item {
+    background-color: #1e293b;
+  }
+
+  .menu-item:hover {
+    background-color: #334155;
+  }
+}
+
 
