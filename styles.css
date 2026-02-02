@@ -515,15 +515,13 @@ footer {
     margin-top: 45px; /* ⬅ baja el nombre */
   }
 }
-/* =====================================
-   🌙 FIX DEFINITIVO TEXTO HISTORIA
-===================================== */
 @media (prefers-color-scheme: dark) {
-  .historia-texto {
+  .historia-texto,
+  .historia-texto p {
     color: #e5e7eb !important;
   }
 
-  .historia-texto p {
-    color: #e5e7eb !important;
+  .historia-texto h2 {
+    color: #60a5fa;
   }
 }
